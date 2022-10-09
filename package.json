@@ -1,0 +1,13 @@
+{
+  "name": "webview",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^21.1.0"
+  },
+  "scripts": {
+    "dev": "electron .",
+    "build": "npx electron-packager . webview --platform=win32 --arch=x64 --icon src/assets/icone.ico "
+  }
+}
